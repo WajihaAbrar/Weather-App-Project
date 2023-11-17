@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+h1,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  color: #1c0955;
+}
+h6 {
+  font-size: 16px;
+  color: black;
+}
+h3 {
+  font-size: 20px;
+}
+.content-container {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.city {
+  font-weight: 500;
+}
+
+.city1 {
+  color: rgb(37, 222, 37);
+}
+.city2 {
+  color: orange;
+}
+.city3 {
+  color: red;
+}
+.city4 {
+  color: blueviolet;
+}
+.city5 {
+  color: blue;
+}
+
+.city-textbox {
+  max-width: 600px;
+  border: 2px solid yellow;
+}
+
+.wind {
+  color: rosybrown;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.temperature {
+  font-weight: 800;
+  font-size: 48px;
+}
+.day,
+.temp {
+  font-weight: 500;
+}
+.cloud {
+  font-size: 30px;
+}
+
+.temperature-unit {
+  position: relative;
+  top: -18px;
+  font-size: 25px;
+  font-weight: 600;
+}
