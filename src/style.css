@@ -74,3 +74,41 @@ h3 {
   font-size: 25px;
   font-weight: 600;
 }
+@media (max-width: 900px) {
+  body {
+    background: none;
+  }
+  .weather-container {
+    width: 400px;
+    height: 750px;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .weather-search-bar {
+    width: 80%;
+    margin: 5px auto;
+  }
+  .search-input {
+    width: 70%;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .search-button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .city {
+    margin: 0;
+    font-size: 25px;
+  }
+  .city-weather {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    padding: 5px 0px 0px 30px;
+  }
+}
